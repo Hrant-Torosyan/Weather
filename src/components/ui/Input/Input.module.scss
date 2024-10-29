@@ -1,0 +1,32 @@
+.inputStyle {
+
+
+	.inputBox {
+		width: 30rem;
+		position: relative;
+
+		input {
+
+			border-radius: 1.3rem;
+			background: rgb(249, 249, 249);
+			padding: .6rem;
+			width: 100%;
+			text-align: center;
+			font-size: 1.6rem;
+			border: 2px solid transparent;
+			transition: 0.5s;
+
+			&:focus-within,
+			&:hover {
+				border-color: orange
+			}
+		}
+
+		.inpError {
+			border-color: #ff0000 !important;
+		}
+
+	}
+
+
+}

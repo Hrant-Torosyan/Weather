@@ -1,0 +1,16 @@
+.mainPage {
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	.mainPageContent {
+		padding-top: 5rem;
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		gap: 10rem;
+		> div {
+			width: 25%;
+		}
+	}
+}

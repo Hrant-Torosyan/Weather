@@ -1,0 +1,35 @@
+.weatherDays {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	.weatherDaysItem {
+		padding: 1.5rem;
+		border-radius: 1.2rem;
+		box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+		cursor: pointer;
+		transition: 0.5s;
+		p {
+			font-size: 1.6rem;
+		}
+		.weatherDaysItemImg {
+			display: flex;
+			align-items: center;
+			h2 {
+				font-weight: 600;
+				font-size: 2rem;
+			}
+			img {
+				width: 5rem;
+			}
+		}
+		&:hover {
+			background: #ddd;
+		}
+	}
+
+	.weatherDaysItem.active {
+		box-shadow: none;
+		pointer-events: none;
+		background: #ddd;
+	}
+}

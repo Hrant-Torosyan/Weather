@@ -1,0 +1,19 @@
+header {
+	padding: 2rem;
+	display: flex;
+	align-items: center;
+	background: purple;
+	align-items: center;
+	justify-content: space-between;
+
+	.errorBlock {
+		color: red;
+		font-size: 2rem;
+	}
+
+	.headerSearch {
+		gap: 2rem;
+		display: flex;
+		align-items: center;
+	}
+}
